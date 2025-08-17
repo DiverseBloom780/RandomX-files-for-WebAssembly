@@ -101,3 +101,15 @@ javascriptconst importObject = {
     }
 };
 This provides stub implementations for all six function imports (a.a through a.f) that your WASM expects.
+
+the export section looks like this:
+
+(export "g" (memory 0))
+(export "h" (func 54))
+(export "i" (func 129))
+(export "j" (func 111))
+(export "k" (table 0))
+(export "l" (func 28))
+(export "m" (func 115))
+(export "n" (func 114))
+(export "o" (func 113))
