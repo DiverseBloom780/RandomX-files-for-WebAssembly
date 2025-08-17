@@ -88,3 +88,16 @@ emcc ../wrapper.cpp \
 📜 License
 
 This project is licensed under the BSD 3-Clause License, the same as the original RandomX.
+
+
+javascriptconst importObject = {
+    a: {
+        a: () => {},
+        b: () => {},
+        c: () => {},
+        d: () => {},
+        e: () => {},
+        f: () => {}
+    }
+};
+This provides stub implementations for all six function imports (a.a through a.f) that your WASM expects.
