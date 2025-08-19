@@ -1,7 +1,3 @@
-Perfect 👍 let’s extend your README so it covers both RandomX WebAssembly and Panthera (panthera-wasm.c), since you’ll want people to be able to reproduce both builds in one place.
-
-Here’s an updated version of the README for your GitHub repo:
-
 
 ---
 
@@ -188,7 +184,4 @@ For browser builds, ensure the .wasm file is served alongside the .js loader.
 
 This follows the original RandomX license and Panthera license.
 
----
-
-Do you want me to also include a **section showing how to place `panthera-wasm.c` in the repo and compile it step by step (with WSL ↔ Windows path examples)** so anyone can follow along on Windows?
 
